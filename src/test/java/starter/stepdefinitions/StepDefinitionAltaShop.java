@@ -171,7 +171,7 @@ public class StepDefinitionAltaShop {
 
         bodyRequest.put("count", 4);
 
-        actor.attemptsTo(Post.to("/api/products/13392/ratings").with(request -> request.header("Authorization", "Bearer "
+        actor.attemptsTo(Post.to("/api/products/14644/ratings").with(request -> request.header("Authorization", "Bearer "
                 + user.getAuth()).body(bodyRequest)));
 
     }

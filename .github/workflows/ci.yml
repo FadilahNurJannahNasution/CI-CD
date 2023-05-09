@@ -20,7 +20,7 @@ jobs:
         run: mvn --batch-mode --update-snapshots verify
   test:
     name: TEST API
-    runs-on;ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: TEST API
         run: mvn clean verify

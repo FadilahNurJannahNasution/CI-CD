@@ -19,7 +19,6 @@ jobs:
 
   test:
     name: TEST API
-    runs-on: ubuntu-latest
     steps:
       - name: TEST API
         run: mvn clean verify

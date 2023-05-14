@@ -16,7 +16,7 @@ Feature: Products Alta Shop API
 
   @Products @Positive
   Scenario: User get products by id
-    Given User call api "/api/products/13568" with method "GET"
+    Given User call api "/api/products/85281" with method "GET"
     And User verify status code is 200
 
   @Products @Positive

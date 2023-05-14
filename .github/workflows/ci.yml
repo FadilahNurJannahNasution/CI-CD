@@ -17,8 +17,5 @@ jobs:
           java-version: '19'
           distribution: 'adopt'
 
-  test:
-    name: TEST API
-    steps:
       - name: TEST API
         run: mvn clean verify
